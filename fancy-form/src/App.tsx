@@ -118,7 +118,7 @@ function App() {
                   {data && data.map((item) =>
                     <SelectItem key={item.currency} value={item.currency}>
                       <div className='flex gap-2'>
-                        <img src={`src/assets/tokens/${item.currency}.svg`} alt={`${item.currency}-svg`} className='w-5 h-5' />
+                        <img src={`/assets/tokens/${item.currency}.svg`} alt={`${item.currency}-svg`} className='w-5 h-5' />
                         {item.currency}
                       </div>
                     </SelectItem>
@@ -144,7 +144,7 @@ function App() {
                   {data && data.map((item) =>
                     <SelectItem key={item.currency} value={item.currency}>
                       <div className='flex gap-2 items-center'>
-                        <img src={`src/assets/tokens/${item.currency}.svg`} alt={`${item.currency}-svg`} className='w-5 h-5' />
+                        <img src={`/assets/tokens/${item.currency}.svg`} alt={`${item.currency}-svg`} className='w-5 h-5' />
                         {item.currency}
                       </div>
                     </SelectItem>
