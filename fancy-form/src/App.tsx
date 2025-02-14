@@ -102,7 +102,7 @@ function App() {
 
   return (
     <div className=''>
-      <div className='flex items-end'>
+      <div className='md:flex md:items-end'>
         <div>
           <label htmlFor="amount">Amount</label>
           <div className='flex gap-2'>
